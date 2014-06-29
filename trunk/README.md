@@ -1,17 +1,20 @@
-=== Drag and Drop Front-End Design Builder ===
+#=== Drag and Drop Front-End Design Builder ===
 Contributors: diegpl, pkelbert
 Donate link: http://wpsoft.com.br/ 
-Tags: drag and drop, front-end, design builder, live edition, limitless, drag-and-drop, drag-n-drop
+Tags: drag and drop, front-end, design builder, live edition, limitless, drag-and-drop, drag-n-drop, awesome
 Requires at least: 3.0.1
 Tested up to: 3.8
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Design Builder that allow live edition in the front end through the Limitless drag and drop system (http://themeforest.net/item/limitless-multipurpose-drag-n-drop-theme/5528738)
-With this plugin always when you click in an element, their attributes are opened, avoiding waste of time to find it in a big list.
+Design Builder that allows live editing in the front end through the "Limitless" drag and drop system (http://themeforest.net/item/limitless-multipurpose-drag-n-drop-theme/5528738)
+With this plugin, anytime a user you clicks in an element, their attributes are opened, avoiding waste of time to find it in some giant list.
+This combines the advantages of the power of Drupal with the ease of use and ease of installation of Wordpress. 
 
-== Description ==
+Are you ready to make frontends more customizable than any drag and drop system has yet to offer, "Rapid Application Development" style? 
+
+##== Description ==
 
 Design Builder that allow live edition in the front end through the Limitless drag and drop system (http://themeforest.net/item/limitless-multipurpose-drag-n-drop-theme/5528738)
 With this plugin always when you click in an element, their attributes are opened, avoiding waste of time to find it in a big list.
@@ -23,10 +26,10 @@ http://wpsoftwares.com
 
 http://wpsoft.com.br
 
-== Installation ==
+##== Installation ==
 
-1. Upload it to plugins folder (/wp-content/plugins/)
-2. Activate the plugin
+1. Upload it to your blog's plugins folder (/wp-content/plugins/). 
+2. Activate the plugin. 
 3. For both versions 1.7.7 or 2.0 in a local host you need to set $firstMatrix = array_keys($section[0]['matrix'])[0] instead array_shift(array_keys($arg['matrix'])). I don`t know why, if someone knows that, please tell me.
 
 	For the version 1.7.7:  Change the both foreach at line 194 in limitless/backend/classes/class_enigma.php for this code:
@@ -71,30 +74,30 @@ http://wpsoft.com.br
 						
 			$code .='<div class="en-sub-sec" data-search="'.strtolower($arg['label']).'"><h5 class="sub-styler-title '.$firstMatrixFiltered.'">'.$arg['label'].'<a href="" class="en-comp-reset">'.__('Reset','ioa').'</a> </h5><div class="sub-styler-section clearfix">';
 
-4. It is done. Use it!!!
+4. It is done. Use it, and spread the love of open source, easy site layout to the four corners of the world!
 
-== Frequently Asked Questions ==
+##== Frequently Asked Questions ==
 
-= What is missing on this plugin? =
+###= What is missing on this plugin? =
 
 It helps to get the attribute category, but still doesn`t show the exact element you clicked over it.
 
 
-== Screenshots ==
+##== Screenshots ==
 
-1. Attributes opened after a click
-2. Console running some logs
+1. This shows how attributes are opened after one click.
+2. This shows the console running some logs.
 
-== Changelog ==
+##== Changelog ==
 
-= 1.0 =
+###= 1.0 =
 * Plugin released.
 
-== Arbitrary section ==
+##== Arbitrary section ==
 
 
 
-== Markdown ==
+##== Markdown ==
 
-1. Don`t waste your time
-2. Let your clients more independent
+1. Allows you to spend more time on code. 
+2. Let your clients be more independent, and feel like they are an even bigger part of the design process. 
