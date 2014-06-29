@@ -1,4 +1,4 @@
-#=== Drag and Drop Front-End Design Builder ===
+#Drag and Drop Front-End Design Builder 
 Contributors: diegpl, pkelbert
 Donate link: http://wpsoft.com.br/ 
 Tags: drag and drop, front-end, design builder, live edition, limitless, drag-and-drop, drag-n-drop, awesome
